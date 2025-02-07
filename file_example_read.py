@@ -15,6 +15,4 @@ with open("text.txt", "r") as fp:
         # print(line, end="")
         print(f"{line_number}: {line.rstrip()}")
         line_number += 1
-
-
-
+        
